@@ -80,7 +80,32 @@ Use $oooyi-illustrations 这张图里小星的星星发夹画错了，
 
 ## 图文案例
 
-下面四张是风格校准样例，用于理解线条、留白、颜色克制和小星气质。换文章时需要重新发明隐喻，不能照抄旧图的物件、构图或标注。
+下面两组按当前 `$oooyi-illustrations` 的小星角色与白底手绘规则生成。每张图同时放入网页展示目录和 Skill 校准目录，完整生成提示词见 [examples/prompts.md](examples/prompts.md#当前-skill-真实生成案例)。
+
+### 信息过滤
+
+```text
+Use $oooyi-illustrations 为“信息越多，不代表判断越好；只留下能推动下一步的线索”生成一张小星正文配图。
+```
+
+小星亲手筛选信息，画面只解释“把信息变成可行动线索”这一件事。
+
+![当前 Skill 示例：小星亲手过滤信息，只留下可行动线索](examples/images/filtering.png)
+
+### 先验证再投入
+
+```text
+Use $oooyi-illustrations 为“先用低成本小样验证最大的不确定性，再扩大投入”生成一张小星正文配图。
+```
+
+小星先给小伞滴水、探查是否漏水，巨伞保持收拢，把“先验证，再投入”画成一个具体动作。
+
+![当前 Skill 示例：小星先做小样验证，再考虑扩大投入](examples/images/validation.png)
+
+当前校准图及用途见 [Skill 内示例索引](oooyi-illustrations/assets/examples/README.md)。示例只用于校准线条、留白、角色与配色，换文章时需要重新发明隐喻，不照抄物件、构图或标注。`archive-xiaohei/` 中的小黑图片仅作历史归档。
+
+<details>
+<summary>早期小星样例（4 张）</summary>
 
 ### 补上断点
 
@@ -98,6 +123,8 @@ Use $oooyi-illustrations 这张图里小星的星星发夹画错了，
 
 ![内容发酵](examples/images/04-content-fermentation.png)
 
+</details>
+
 ## 文件结构
 
 ```text
@@ -107,7 +134,7 @@ Use $oooyi-illustrations 这张图里小星的星星发夹画错了，
 ├── NOTICE.md                       # 来源与原作者署名
 ├── CHANGELOG.md                    # 版本变更记录
 ├── examples/
-│   ├── images/                     # 小星风格校准样例
+│   ├── images/                     # 小星案例展示
 │   ├── archive-xiaohei/            # 旧小黑示例归档，仅供历史参考
 │   └── prompts.md                  # 可复制的需求示例
 └── oooyi-illustrations/            # 安装到 Codex 的 Skill 子目录
@@ -115,7 +142,7 @@ Use $oooyi-illustrations 这张图里小星的星星发夹画错了，
     ├── agents/
     │   └── openai.yaml              # 展示信息与默认调用
     ├── assets/
-    │   ├── examples/                # Skill 内的小星校准样例
+    │   ├── examples/                # 当前小星校准图与示例索引
     │   └── archive-xiaohei/          # 旧小黑示例归档
     └── references/
         ├── ip-character.md          # 小星角色圣经与 CHARACTER LOCK

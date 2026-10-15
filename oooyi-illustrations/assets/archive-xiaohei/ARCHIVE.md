@@ -1,5 +1,5 @@
-# 归档：小黑时代示例（skill 内校准集）
+# 历史归档：小黑示例（随 Skill 保留）
 
-与 `examples/archive-xiaohei/` 相同来源的历史归档，
-v1.0.0 起不再作为 skill 的风格校准集，仅保留作历史参考。
-当前校准集见 `assets/examples/`（小星新示例）。
+这些图片与仓库根目录 `examples/archive-xiaohei/` 来自同一批旧小黑示例，仅用于历史溯源，不参与当前小星的角色参考、画风校准或生图输入。
+
+当前小星校准图见 [../examples/README.md](../examples/README.md)。不要将此目录的旧图与当前示例混用。
