@@ -1,4 +1,4 @@
-# Muse AI Party Illustrations
+# oooyi-illustrations
 
 > 把中文文章里的判断、流程、状态和隐喻，变成一张张白底手绘的小星正文配图。
 
@@ -8,7 +8,7 @@
 
 ## 这个仓库是什么？
 
-Muse AI Party Illustrations 是一个 Codex Skill，指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。
+oooyi-illustrations 是一个 Codex Skill，指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。
 
 它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解文章里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。
 
@@ -96,11 +96,13 @@ Muse AI Party Illustrations 是一个 Codex Skill，指导 AI Agent 为中文文
 
 ## 安装
 
+Skill 位于仓库内的 `muse-aiparty-illustrations/` 子目录，调用名为 `$muse-aiparty-illustrations`。
+
 克隆仓库：
 
 ```
-git clone https://github.com/liaoyio/muse-aiparty-illustrations.git
-cd muse-aiparty-illustrations
+git clone https://github.com/liaoyio/oooyi-illustrations.git
+cd oooyi-illustrations
 ```
 
 复制 skill 到 Codex skills 目录：
