@@ -2,6 +2,8 @@
 
 下面这些 prompt 可以直接复制到 Codex 里使用。
 
+8 个主题的小星案例及其完整生图记录见 [archive-xiaoxing/](archive-xiaoxing/README.md)。
+
 ## 只做配图规划
 
 ```text

@@ -21,9 +21,10 @@ description: 生成小星（Xing）IP 风格的中文正文配图。用于用户
 - `references/composition-patterns.md`：结构类型、原创隐喻方法、反差法则。
 - `references/prompt-template.md`：单张生图提示词模板。
 - `references/qa-checklist.md`：生成后检查和迭代规则。
-- `assets/examples/README.md`：当前小星示例索引，只作低频视觉校准，不进入默认生成路径；需要校准时，从索引中选择当前示例。不要照抄案例的构图、物件或标注。
+- `assets/archive-xiaoxing/README.md`：8 个主题的小星案例集，只作低频视觉校准；需要校准时，从索引中选与当前问题相关的图片。
+- `assets/examples/README.md`：其他小星样例的索引，按需补充参考。
 
-`assets/archive-xiaohei/` 是旧版小黑图片的历史归档，不得用作当前小星的角色参考、画风校准或生图输入。
+两处示例都不进入默认生成路径，不要整套加载，也不要照抄案例的构图、物件或标注。角色身份始终以 `references/character/` 的基准图为准。
 
 ## 工作流
 

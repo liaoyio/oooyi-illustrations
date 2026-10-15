@@ -29,7 +29,7 @@ https://github.com/liaoyio/oooyi-illustrations/tree/main/oooyi-illustrations
 
 每张图只表达一个核心动作、结构、状态或隐喻，小星必须亲手执行核心动作，记忆点来自“小小的人与巨型物件”的体型反差。酷是他的样子，荒诞是他的处境；如果去掉小星后画面仍完全成立，说明人物太像装饰。
 
-生图时原样复用 [CHARACTER LOCK（手绘版）](oooyi-illustrations/references/ip-character.md)，并在工具支持参考图时附上[全身基准图](oooyi-illustrations/references/character/front-fullbody.jpg)和[脸部验脸锚点](oooyi-illustrations/references/character/face-closeup.jpg)。基准图只取设计元素，小星仍须画成手绘小小形象，禁止 3D 或写实渲染。
+生图时原样复用 [CHARACTER LOCK（手绘版）](oooyi-illustrations/references/prompt-template.md)，并在工具支持参考图时附上[全身基准图](oooyi-illustrations/references/character/front-fullbody.jpg)和[脸部验脸锚点](oooyi-illustrations/references/character/face-closeup.jpg)。基准图只取设计元素，小星仍须画成手绘小小形象，禁止 3D 或写实渲染。
 
 中文越短越稳定，不要把一张图做成说明书。模型可能生成错字、幻觉标签、风格漂移或形象走样，出图后应先验脸，再验动作，最后验结构；角色走样时优先局部修正，修不好再重生成。
 
@@ -80,7 +80,9 @@ Use $oooyi-illustrations 这张图里小星的星星发夹画错了，
 
 ## 图文案例
 
-下面两组按当前 `$oooyi-illustrations` 的小星角色与白底手绘规则生成。每张图同时放入网页展示目录和 Skill 校准目录，完整生成提示词见 [examples/prompts.md](examples/prompts.md#当前-skill-真实生成案例)。
+原有 8 个主题已按当前 Skill 重画为[小星案例集](examples/archive-xiaoxing/README.md)，统一放在 `archive-xiaoxing/`，并同步到 Skill 安装目录。每张图的需求、成图和完整提示词都在案例集中。
+
+下面另有「信息过滤」「先验证再投入」两组小星案例，完整生成提示词见 [examples/prompts.md](examples/prompts.md#当前-skill-真实生成案例)。
 
 ### 信息过滤
 
@@ -102,7 +104,7 @@ Use $oooyi-illustrations 为“先用低成本小样验证最大的不确定性�
 
 ![当前 Skill 示例：小星先做小样验证，再考虑扩大投入](examples/images/validation.png)
 
-当前校准图及用途见 [Skill 内示例索引](oooyi-illustrations/assets/examples/README.md)。示例只用于校准线条、留白、角色与配色，换文章时需要重新发明隐喻，不照抄物件、构图或标注。`archive-xiaohei/` 中的小黑图片仅作历史归档。
+8 张案例的校准用途见 [Skill 内小星案例集](oooyi-illustrations/assets/archive-xiaoxing/README.md)，其他小星样例见[补充示例索引](oooyi-illustrations/assets/examples/README.md)。示例只用于校准线条、留白、角色与配色，换文章时需要重新发明隐喻，不照抄物件、构图或标注。
 
 <details>
 <summary>早期小星样例（4 张）</summary>
@@ -135,7 +137,7 @@ Use $oooyi-illustrations 为“先用低成本小样验证最大的不确定性�
 ├── CHANGELOG.md                    # 版本变更记录
 ├── examples/
 │   ├── images/                     # 小星案例展示
-│   ├── archive-xiaohei/            # 旧小黑示例归档，仅供历史参考
+│   ├── archive-xiaoxing/           # 8 张小星案例、图文索引与完整提示词
 │   └── prompts.md                  # 可复制的需求示例
 └── oooyi-illustrations/            # 安装到 Codex 的 Skill 子目录
     ├── SKILL.md                     # 入口、触发条件与生成流程
@@ -143,7 +145,7 @@ Use $oooyi-illustrations 为“先用低成本小样验证最大的不确定性�
     │   └── openai.yaml              # 展示信息与默认调用
     ├── assets/
     │   ├── examples/                # 当前小星校准图与示例索引
-    │   └── archive-xiaohei/          # 旧小黑示例归档
+    │   └── archive-xiaoxing/         # 同一套 8 张小星案例，随 Skill 安装
     └── references/
         ├── ip-character.md          # 小星角色圣经与 CHARACTER LOCK
         ├── character/               # 全身基准图与脸部验脸锚点
